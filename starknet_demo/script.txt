@@ -1,0 +1,7 @@
+0x074005927a52e62558a957a160c93ddcf1b754dad73a7de7988baa2317bf4f25
+
+starknet invoke \
+    --address 0x074005927a52e62558a957a160c93ddcf1b754dad73a7de7988baa2317bf4f25 \
+    --abi contract_abi.json \
+    --function increase_balance \
+    --inputs 1234
